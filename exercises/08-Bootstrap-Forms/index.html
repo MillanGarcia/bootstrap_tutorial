@@ -12,8 +12,26 @@
 		<title>08 Bootstrap Forms</title>
 	</head>
 	<body>
-		<div class="col-3 mx-auto my-5">
-			<!-- Add your code below this line -->
+		<div class="container-fluid">
+			<div class="col-4 mx-auto my-5 bg-secondary p-5 w-90 rounded">
+				<!-- Add your code below this line -->
+				<h2>Please login</h2>
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Email Address" aria-label="Username" />
+				</div>
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Password" aria-label="Server" />
+				</div>
+				<div class="input-group mb-3" style="margin-top: -15px; margin-left: -13px">
+					<div class="input-group-text bg-secondary border-0">
+						<input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" />
+						<div>
+							<p style="padding-top: 16px; padding-left: 5px">Remember me</p>
+						</div>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary w-100">Login</button>
+			</div>
 		</div>
 	</body>
 </html>
